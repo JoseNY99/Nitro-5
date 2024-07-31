@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> 
+    <script src="js/index.js"></script>
+    <title>API RESTful</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h2>API RESTful</h2>
+            <h4>Busca noticias y descarga los resultados en JSON, XML, HTML SIMPLE o TEXTO PLANO</h4>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="section-principal">
+                <div class="search-section">
+                    <span id="info">Escribe lo que quieras buscar y luego selecciona un formato para descargar el archivo</span>
+                    <div class="input-search">
+                        <div class="group">
+                            
+                            <input placeholder="Buscar" type="search" class="input">
+                        </div>
+                    </div>
+                </div>
+                <div class="download-buttons">
+                    <button id="json" class="button" type="button">
+                        <span class="button__text">JSON</span>
+                    </button>
+
+                    <button id="xml" class="button" type="button">
+                        <span class="button__text">XML</span>
+                    </button>
+
+                    <button id="html" class="button" type="button">
+                        <span class="button__text">HTML simple</span>
+                    </button>
+
+                    <button id="text-plain" class="button" type="button">
+                        <span class="button__text">Texto plano</span>
+                    </button>
+
+                    <div id="spinner" style="display: none;">
+                        <div class="spinner-border" role="status"></div>
+                    </div>
+                      
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-section">
+            <span>Desarrollado por Jose Narvaez</span>
+        </div>
+    </footer>
+</body>
+</html>
